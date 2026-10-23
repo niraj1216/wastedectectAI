@@ -1,0 +1,5 @@
+# Runtime only. No PyTorch, so the app fits in 512 MB.
+onnxruntime>=1.18,<1.23
+opencv-python-headless>=4.9,<4.12
+numpy<2.3
+streamlit>=1.40

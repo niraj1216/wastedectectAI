@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wastedetect-ai
+    runtime: docker
+    plan: free              # 512 MB RAM; the ONNX runtime image is built to fit
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /_stcore/health
+    autoDeploy: true

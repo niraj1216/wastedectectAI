@@ -1,0 +1,11 @@
+# Only needed to create models/waste_world.onnx (build stage / Colab). Not installed at runtime.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics>=8.3
+git+https://github.com/ultralytics/CLIP.git
+ftfy
+regex
+onnx
+onnxslim
+onnxruntime
